@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Django Auth</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="{{ 'login' }}">Login</a></li>
+            <li><a href="{{ 'logout' }}">Logout</a></li>
+            <li><a href="{{ 'register'}} ">Register</a></li>
+            <p>Hello {{ request.user }}</p>
+        </ul>
+    </nav>
+    <hr> 
+    <div>
+    </div>
+
+</body>
+
+</html>
